@@ -150,6 +150,7 @@ public class Global extends GlobalSettings {
 
             private void replaceSiteSecretKey(String seed) throws IOException {
                 System.out.println("KCS");
+                System.out.println("KCS");
                 SecureRandom random = new SecureRandom(seed.getBytes());
                 String secret = new BigInteger(130, random).toString(32);
 
